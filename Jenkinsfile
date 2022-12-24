@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage('vcs') {
             steps {
-                git branch: 'main', url: 'https://github.com/AnasAnsar1/react-storefront.git'
+                git branch: 'dev', url: 'https://github.com/AnasAnsar1/react-storefront.git'
             }
         }
         stage('Image_build_and_Push') {
